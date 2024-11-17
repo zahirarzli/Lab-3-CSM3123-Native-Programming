@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.sharedpreferencesdemo"
+    namespace = "com.example.sqlitedemo"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.sharedpreferencesdemo"
+        applicationId = "com.example.sqlitedemo"
         minSdk = 21
         targetSdk = 35
         versionCode = 1
