@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.sqlitedemo"
+    namespace = "com.example.recyclerviewsqlitedemo"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.sqlitedemo"
+        applicationId = "com.example.recyclerviewsqlitedemo"
         minSdk = 21
         targetSdk = 35
         versionCode = 1
@@ -37,6 +37,8 @@ android {
 
 dependencies {
 
+    implementation("androidx.recyclerview:recyclerview:1.2.1")
+    implementation("androidx.appcompat:appcompat:1.3.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
